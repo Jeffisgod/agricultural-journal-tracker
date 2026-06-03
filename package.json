@@ -1,0 +1,33 @@
+{
+  "name": "agricultural-journal-tracker",
+  "private": false,
+  "version": "0.2.0",
+  "description": "农业领域学术期刊智能追踪系统 — Track latest papers from top agricultural journals",
+  "homepage": "https://github.com/your-username/agricultural-journal-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/agricultural-journal-tracker.git"
+  },
+  "keywords": ["agriculture", "journal", "papers", "openalex", "react", "arxiv"],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch": "python3 scripts/fetch_papers.py"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "cheerio": "^1.2.0",
+    "iconv-lite": "^0.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.10"
+  }
+}
